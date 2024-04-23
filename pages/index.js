@@ -1,7 +1,3 @@
-import React from "react";
-
-function index() {
-  return <div>Hello world</div>;
+export default function Home() {
+  return "hi";
 }
-
-export default index;
