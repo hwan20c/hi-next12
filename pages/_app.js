@@ -1,10 +1,9 @@
-import NavBar from "../compnents/NavBar";
+import Layout from "../compnents/Layout";
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Component {...pageProps} />
-    </>
+    </Layout>
   );
 }
